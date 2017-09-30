@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+	<!-- 测试Allure Framework生成的测试报告的试验-->
+	<test name="Test_Allure_Framework_Report">
+		<classes>
+	        <class name="com.wdy.learnallureNG.AppTest" />
+		</classes>
+	</test>
+
+</suite>
