@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="81.183" tests="13" errors="0" skipped="1" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="81.423" tests="13" errors="0" skipped="1" failures="7">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/Users/wdy/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8604184623373860164.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/wdy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -39,11 +39,11 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="wdy"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="/Users/wdy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="maven.home" value="/Users/wdy/Documents/workspace/learnallureNG/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,7 +61,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="failedTest" classname="com.wdy.learnallureNG.AppTest" time="0.133">
+  <testcase name="failedTest" classname="com.wdy.learnallureNG.AppTest" time="0.176">
     <failure message="This test should be failed" type="java.lang.AssertionError">java.lang.AssertionError: This test should be failed
 	at com.wdy.learnallureNG.AppTest.failedTest(AppTest.java:58)
 </failure>
@@ -71,14 +71,14 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ]]></system-err>
   </testcase>
   <testcase name="simpleTest" classname="com.wdy.learnallureNG.AppTest" time="0.007"/>
-  <testcase name="csvAttachmentTest" classname="com.wdy.learnallureNG.AppTest" time="0.003">
+  <testcase name="csvAttachmentTest" classname="com.wdy.learnallureNG.AppTest" time="0.002">
     <failure message="Couldn&apos;t find resource &apos;sample.csv&apos;" type="java.lang.AssertionError">java.lang.AssertionError: Couldn't find resource 'sample.csv'
 	at com.wdy.learnallureNG.AppTest.getSampleFile(AppTest.java:124)
 	at com.wdy.learnallureNG.AppTest.saveCsvAttachment(AppTest.java:113)
 	at com.wdy.learnallureNG.AppTest.csvAttachmentTest(AppTest.java:103)
 </failure>
   </testcase>
-  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.004">
+  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.006">
     <failure message="&#10;Expected: is &lt;2&gt;&#10;     but: was &lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: is <2>
@@ -86,8 +86,8 @@ Expected: is <2>
 	at com.wdy.learnallureNG.AppTest.parametrizedTest(AppTest.java:82)
 ]]></failure>
   </testcase>
-  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.001"/>
-  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.001">
+  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.002"/>
+  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.002">
     <failure message="&#10;Expected: is &lt;2&gt;&#10;     but: was &lt;3&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: is <2>
@@ -95,7 +95,7 @@ Expected: is <2>
 	at com.wdy.learnallureNG.AppTest.parametrizedTest(AppTest.java:82)
 ]]></failure>
   </testcase>
-  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.003">
+  <testcase name="parametrizedTest" classname="com.wdy.learnallureNG.AppTest" time="0.001">
     <failure message="&#10;Expected: is &lt;2&gt;&#10;     but: was &lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: is <2>

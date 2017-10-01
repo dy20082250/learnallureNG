@@ -18,8 +18,8 @@ import io.qameta.allure.TmsLink;
 
 import static org.testng.Assert.fail;
 import static java.lang.String.format;
-import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.CoreMatchers.is;
 
 public class AppTest{
 	

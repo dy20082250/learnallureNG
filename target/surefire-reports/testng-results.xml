@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="7" ignored="1" total="14" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="70397" started-at="2017-09-30T13:45:31Z" finished-at="2017-09-30T13:46:41Z">
+  <suite name="Suite" duration-ms="70435" started-at="2017-09-30T14:14:35Z" finished-at="2017-09-30T14:15:46Z">
     <groups>
     </groups>
-    <test name="Test_Allure_Framework_Report" duration-ms="70397" started-at="2017-09-30T13:45:31Z" finished-at="2017-09-30T13:46:41Z">
+    <test name="Test_Allure_Framework_Report" duration-ms="70435" started-at="2017-09-30T14:14:35Z" finished-at="2017-09-30T14:15:46Z">
       <class name="com.wdy.learnallureNG.AppTest">
-        <test-method status="FAIL" signature="failedTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="failedTest" duration-ms="10093" started-at="2017-09-30T21:45:31Z" finished-at="2017-09-30T21:45:41Z">
+        <test-method status="FAIL" signature="failedTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="failedTest" duration-ms="10118" started-at="2017-09-30T22:14:36Z" finished-at="2017-09-30T22:14:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[This test should be failed]]>
@@ -50,11 +50,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="simpleTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="simpleTest" duration-ms="5019" started-at="2017-09-30T21:45:41Z" finished-at="2017-09-30T21:45:46Z">
+        <test-method status="PASS" signature="simpleTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="simpleTest" duration-ms="5014" started-at="2017-09-30T22:14:46Z" finished-at="2017-09-30T22:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleTest -->
-        <test-method status="FAIL" signature="csvAttachmentTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="csvAttachmentTest" duration-ms="5014" started-at="2017-09-30T21:45:46Z" description="CSV Attachment" finished-at="2017-09-30T21:45:51Z">
+        <test-method status="FAIL" signature="csvAttachmentTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="csvAttachmentTest" duration-ms="5007" started-at="2017-09-30T22:14:51Z" description="CSV Attachment" finished-at="2017-09-30T22:14:56Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Couldn't find resource 'sample.csv']]>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- csvAttachmentTest -->
-        <test-method status="FAIL" signature="parametrizedTest(int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5012" started-at="2017-09-30T21:45:51Z" data-provider="dataProvider" finished-at="2017-09-30T21:45:56Z">
+        <test-method status="FAIL" signature="parametrizedTest(int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5009" started-at="2017-09-30T22:14:56Z" data-provider="dataProvider" finished-at="2017-09-30T22:15:01Z">
           <params>
             <param index="0">
               <value>
@@ -154,7 +154,7 @@ Expected: is <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametrizedTest -->
-        <test-method status="PASS" signature="parametrizedTest(int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5005" started-at="2017-09-30T21:45:56Z" data-provider="dataProvider" finished-at="2017-09-30T21:46:01Z">
+        <test-method status="PASS" signature="parametrizedTest(int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5003" started-at="2017-09-30T22:15:01Z" data-provider="dataProvider" finished-at="2017-09-30T22:15:06Z">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@ Expected: is <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametrizedTest -->
-        <test-method status="FAIL" signature="parametrizedTest(int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5009" started-at="2017-09-30T21:46:01Z" data-provider="dataProvider" finished-at="2017-09-30T21:46:06Z">
+        <test-method status="FAIL" signature="parametrizedTest(int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5009" started-at="2017-09-30T22:15:06Z" data-provider="dataProvider" finished-at="2017-09-30T22:15:11Z">
           <params>
             <param index="0">
               <value>
@@ -220,7 +220,7 @@ Expected: is <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametrizedTest -->
-        <test-method status="FAIL" signature="parametrizedTest(java.lang.String, int, int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5014" started-at="2017-09-30T21:46:06Z" data-provider="anotherDataProvider" finished-at="2017-09-30T21:46:11Z">
+        <test-method status="FAIL" signature="parametrizedTest(java.lang.String, int, int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5005" started-at="2017-09-30T22:15:11Z" data-provider="anotherDataProvider" finished-at="2017-09-30T22:15:16Z">
           <params>
             <param index="0">
               <value>
@@ -285,7 +285,7 @@ Expected: is <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametrizedTest -->
-        <test-method status="PASS" signature="parametrizedTest(java.lang.String, int, int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5013" started-at="2017-09-30T21:46:11Z" data-provider="anotherDataProvider" finished-at="2017-09-30T21:46:16Z">
+        <test-method status="PASS" signature="parametrizedTest(java.lang.String, int, int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5007" started-at="2017-09-30T22:15:16Z" data-provider="anotherDataProvider" finished-at="2017-09-30T22:15:21Z">
           <params>
             <param index="0">
               <value>
@@ -306,7 +306,7 @@ Expected: is <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametrizedTest -->
-        <test-method status="FAIL" signature="parametrizedTest(java.lang.String, int, int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5006" started-at="2017-09-30T21:46:16Z" data-provider="anotherDataProvider" finished-at="2017-09-30T21:46:21Z">
+        <test-method status="FAIL" signature="parametrizedTest(java.lang.String, int, int)[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="parametrizedTest" duration-ms="5010" started-at="2017-09-30T22:15:21Z" data-provider="anotherDataProvider" finished-at="2017-09-30T22:15:26Z">
           <params>
             <param index="0">
               <value>
@@ -371,15 +371,15 @@ Expected: is <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametrizedTest -->
-        <test-method status="PASS" signature="simpleTestWithAttachments()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="simpleTestWithAttachments" duration-ms="5007" started-at="2017-09-30T21:46:21Z" finished-at="2017-09-30T21:46:26Z">
+        <test-method status="PASS" signature="simpleTestWithAttachments()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="simpleTestWithAttachments" duration-ms="5005" started-at="2017-09-30T22:15:26Z" finished-at="2017-09-30T22:15:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleTestWithAttachments -->
-        <test-method status="PASS" signature="simpleTestWithSteps()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="simpleTestWithSteps" duration-ms="5012" started-at="2017-09-30T21:46:26Z" finished-at="2017-09-30T21:46:31Z">
+        <test-method status="PASS" signature="simpleTestWithSteps()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="simpleTestWithSteps" duration-ms="5007" started-at="2017-09-30T22:15:31Z" finished-at="2017-09-30T22:15:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleTestWithSteps -->
-        <test-method status="FAIL" signature="svgAttachmentTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="svgAttachmentTest" duration-ms="5005" started-at="2017-09-30T21:46:31Z" description="SVG Attachment" finished-at="2017-09-30T21:46:36Z">
+        <test-method status="FAIL" signature="svgAttachmentTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="svgAttachmentTest" duration-ms="5008" started-at="2017-09-30T22:15:36Z" description="SVG Attachment" finished-at="2017-09-30T22:15:41Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Couldn't find resource 'sample.svg']]>
@@ -424,7 +424,7 @@ Expected: is <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- svgAttachmentTest -->
-        <test-method status="SKIP" signature="skippedByDependencyTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="skippedByDependencyTest" duration-ms="0" started-at="2017-09-30T21:46:36Z" depends-on-methods="com.wdy.learnallureNG.AppTest.failedTest" finished-at="2017-09-30T21:46:36Z">
+        <test-method status="SKIP" signature="skippedByDependencyTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f]" name="skippedByDependencyTest" duration-ms="0" started-at="2017-09-30T22:15:41Z" depends-on-methods="com.wdy.learnallureNG.AppTest.failedTest" finished-at="2017-09-30T22:15:41Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method AppTest.skippedByDependencyTest()[pri:0, instance:com.wdy.learnallureNG.AppTest@7181ae3f] depends on not successfully finished methods]]>

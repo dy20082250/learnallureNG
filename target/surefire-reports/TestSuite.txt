@@ -1,32 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 7, Errors: 0, Skipped: 1, Time elapsed: 81.183 s <<< FAILURE! - in TestSuite
-failedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.133 s  <<< FAILURE!
+Tests run: 13, Failures: 7, Errors: 0, Skipped: 1, Time elapsed: 81.423 s <<< FAILURE! - in TestSuite
+failedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.176 s  <<< FAILURE!
 java.lang.AssertionError: This test should be failed
 	at com.wdy.learnallureNG.AppTest.failedTest(AppTest.java:58)
 
-csvAttachmentTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.003 s  <<< FAILURE!
+csvAttachmentTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: Couldn't find resource 'sample.csv'
 	at com.wdy.learnallureNG.AppTest.getSampleFile(AppTest.java:124)
 	at com.wdy.learnallureNG.AppTest.saveCsvAttachment(AppTest.java:113)
 	at com.wdy.learnallureNG.AppTest.csvAttachmentTest(AppTest.java:103)
 
-parametrizedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.004 s  <<< FAILURE!
+parametrizedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.006 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: is <2>
      but: was <1>
 	at com.wdy.learnallureNG.AppTest.parametrizedTest(AppTest.java:82)
 
-parametrizedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.001 s  <<< FAILURE!
+parametrizedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: is <2>
      but: was <3>
 	at com.wdy.learnallureNG.AppTest.parametrizedTest(AppTest.java:82)
 
-parametrizedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.003 s  <<< FAILURE!
+parametrizedTest(com.wdy.learnallureNG.AppTest)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: is <2>
